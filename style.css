@@ -1,0 +1,89 @@
+/* General setup */
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  /* Importing fonts */
+  @font-face {
+    font-family: font-family: "Plus Jakarta Sans", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 10px;
+}
+
+h1, h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  letter-spacing: 2px;
+}
+
+h2{
+  font-size: 3.2rem;
+}
+
+body{
+  line-height: 1.5;
+  word-spacing: normal;
+}
+
+section>h2>p {
+  text-indent: 20px;
+}
+
+a:visited {
+  
+}
