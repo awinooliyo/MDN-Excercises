@@ -59,31 +59,3 @@ html{
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 10px;
 }
-
-h1, h2 {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 800;
-  text-align: center;
-}
-
-h1 {
-  font-size: 5rem;
-  letter-spacing: 2px;
-}
-
-h2{
-  font-size: 3.2rem;
-}
-
-body{
-  line-height: 1.5;
-  word-spacing: normal;
-}
-
-section>h2>p {
-  text-indent: 20px;
-}
-
-a:visited {
-  
-}
